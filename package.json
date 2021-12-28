@@ -1,0 +1,20 @@
+{
+  "name": "CoolApp",
+  "productName": "CoolApp",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "JiGuang",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "@electron/remote": "*",
+    "axios": "*",
+    "node-cmd": "*"
+  },
+  "devDependencies": {
+    "electron": "16.0.5"
+  }
+}
